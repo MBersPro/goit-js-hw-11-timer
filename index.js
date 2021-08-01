@@ -26,9 +26,6 @@ timerJoin(days, hours, mins, secs) {
     this.selector.querySelector('[data-value="secs"]').textContent = secs;
 
 }
-pud(value) {
-    return String(value).padStart(2, "0");
-}
 }
 const timer = new CountdownTimer({
     selector: '#timer-1',
