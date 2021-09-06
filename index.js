@@ -31,3 +31,4 @@ const timer = new CountdownTimer({
     selector: '#timer-1',
     targetDate: new Date('Jul 31 , 2025'),
 });
+// gg
